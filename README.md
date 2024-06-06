@@ -25,5 +25,5 @@
   - line 35: GitHub repo name to migrate work items to
   - line 61: change the app_id to the App ID you got from step 5
   - line 62: update the installation id that you got from step 5
-8. now run in the terminal with the following command:
+8. now run in the terminal with the following command by cd-ing into the repo:
   - ./ado_workitems_to_github_issues.ps1 -ado_pat <AZURE PAT HERE> -ado_org <DEVOPS ORGANIZATION NAME> -ado_project <AZURE PROJECT NAME> -ado_area_path <AZURE AREA PATH> -gh_pat <GITHUB PAT> -gh_org <ORGANIZATION NAME/USERNAME> -gh_repo <GITHUB REPO NAME>
